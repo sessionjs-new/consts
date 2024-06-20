@@ -1,6 +1,6 @@
 {
   "name": "@session.js/consts",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "module": "src/index.ts",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -16,7 +16,8 @@
   "description": "Session Desktop & Session.js constants",
   "type": "module",
   "files": [
-    "dist/index.js"
+    "dist/index.js",
+    "dist/index.d.ts"
   ],
   "scripts": {
     "build": "tsc --project tsconfig.build.json"
